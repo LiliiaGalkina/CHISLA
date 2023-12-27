@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 700;
+  color: #181892;
+  margin-bottom: 30px;
+}
+
+.forma-vvoda {
+  width: 80%;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4px double #181892;
+  /* .forma-vvoda__chiclo */
+  /* .forma-vvoda__text */
+  /* .forma-vvoda__textdop */
+  /* .forma-vvoda__buttons */
+  /* .forma-vvoda__button */
+}
+.forma-vvoda__chislo {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.forma-vvoda__text {
+  padding: 10px 5px;
+  width: 95%;
+  border: 1px solid #0e0e4e;
+  margin-bottom: 30px;
+  font-size: 35px;
+  line-height: 150%;
+  color: #181892;
+}
+.forma-vvoda__textdop {
+  padding: 10px 5px;
+  width: 95%;
+  border: 1px solid #0e0e4e;
+  margin-bottom: 40px;
+  font-size: 35px;
+  line-height: 150%;
+  color: #181892;
+}
+.forma-vvoda__buttons {
+  display: flex;
+}
+.forma-vvoda__button {
+  display: flex;
+  background-color: #d7e4ee;
+  border-radius: 5px;
+  min-height: 58px;
+  padding: 5px 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #181892;
+  font-size: 25px;
+  font-weight: 700;
+  border: 1px solid #181892;
+  transition: all ease 0.5s;
+}
+.forma-vvoda__button:first-child {
+  margin-right: 30px;
+}
+.forma-vvoda__button:hover {
+  background-color: #1515ad;
+  color: #d7e4ee;
+}
+
+.chiclo {
+  /* .chiclo__text */
+  /* .chiclo__input */
+}
+.chiclo__text {
+  font-size: 30px;
+  margin-right: 20px;
+  color: #0e0e4e;
+}
+.chiclo__input {
+  padding: 10px 5px;
+  font-size: 35px;
+  border: 1px solid #0e0e4e;
+  text-align: center;
+  color: #181892;
+  font-weight: 700;
+}
